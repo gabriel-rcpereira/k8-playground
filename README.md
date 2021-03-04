@@ -31,4 +31,4 @@ The "2-ingress" folder has MongoDB Deployment with mongo-express the ingress was
 ### Services (WIP)
 
 ### References
-I read a lot of references mainly the K8 documentation but a didn't save them through the way(Lol). I hugely recommend the [TechWorld with Nana](https://www.youtube.com/watch?v=X48VuDVv0do) video.
+I read a lot of references mainly the K8 documentation but a didn't save them through the way(Lol). I hugely recommend the [TechWorld with Nana](https://www.youtube.com/watch?v=X48VuDVv0do).

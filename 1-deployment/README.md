@@ -12,11 +12,10 @@
 ## Create MongoExpress Deployment and Internal Service(Load Balancer)
 `kubectl apply -f mongo-express.yml`
 
-**Make sure the service was created as ClusterIP:**
+**Make sure the service was created:**
 `kubectl get svc mongo-express-service`
 
-## Create Ingress
-`kubectl apply -f mongo-express-ingress.yml`
+## Enable a tunnel to access MongoExpress
+`minikube tunnel`
 
-**Make sure Ingress was created and get the *ADDRESS* value. The value should be added into *hosts* file related to "mymongodbexpress.com" domain.**
-`kubectl get ingress mongo-express-ingress`
+**The *route* will show a public IP to access the MongoExpress through the 3000 port.**

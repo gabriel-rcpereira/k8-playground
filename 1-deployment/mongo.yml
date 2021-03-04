@@ -30,7 +30,7 @@ spec:
             secretKeyRef:
               name: mongodb-secret
               key: mongo-root-password
-# using the file to create a service cause service belongs to pod
+# using the same file to create the service related to pod
 ---
 apiVersion: v1
 kind: Service
